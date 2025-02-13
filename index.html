@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI képelemző</title>
+</head>
+
+<body>
+    <h1>AI képelemző</h1>
+    <div id="box">
+      <div id="image-picker">
+        <label for="fileInput" id="fileInput-label">Kép kiválasztás</label>
+        <input type="file" id="fileInput" style="display:none;">
+      </div>
+      <div class="prompt-box">
+        <button type="submit" id="submit-look">Mi látható a képen?</button>
+        <button type="submit" id="submit-color">Milyen színű a kép?</button>
+      </div>
+      <h2>AI:</h2>
+      <p class="output"></p>
+    </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
